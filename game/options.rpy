@@ -28,7 +28,7 @@ init -1 python hide:
     # These control the name and version of the game, that are reported
     # with tracebacks and other debugging logs.
     config.name = "in_Human"
-    config.version = "1.1.0-alpha"
+    config.version = "1.1.1-alpha"
 
     #########################################
     # Themes
