@@ -28,7 +28,7 @@ init -1 python hide:
     # These control the name and version of the game, that are reported
     # with tracebacks and other debugging logs.
     config.name = "in_Human"
-    config.version = "1.0.0-alpha"
+    config.version = "1.1.0-alpha"
 
     #########################################
     # Themes
@@ -144,8 +144,9 @@ init -1 python hide:
     ## These let you customize the default font used for text in Ren'Py.
 
     ## The file containing the default font.
+    ## The current default font is "Courier New."
 
-    # style.default.font = "DejaVuSans.ttf"
+    style.default.font = "font/cour.ttf"
 
     ## The default size of text.
 
@@ -274,7 +275,7 @@ init -1 python hide:
 
     ## Should we start in fullscreen mode?
 
-    config.default_fullscreen = False
+    config.default_fullscreen = True
 
     ## The default text speed in characters per second. 0 is infinite.
 
