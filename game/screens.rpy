@@ -205,8 +205,22 @@ init -2:
     style mm_button:
         size_group "mm"
 
-
-
+##############################################################################
+# Extras Menu
+#
+# Screen that's used to display the extras menu, when Ren'Py selected from the main menu
+screen extras():
+    
+    tag menu
+    window:
+            style "mm_root"
+            
+    use navigation
+    
+init -2:
+    style mm_button:
+        size_group "mm"
+        
 ##############################################################################
 # Navigation
 #
