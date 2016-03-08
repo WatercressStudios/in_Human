@@ -22,7 +22,7 @@ image white                = "#FFF"
 #######
 # VFX #
 #######
-image watercress = "vfx/watercress.png"
+image watercress = "vfx/splashscreen.png"
 
 
 # Splash Screen
